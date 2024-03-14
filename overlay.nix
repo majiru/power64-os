@@ -13,5 +13,7 @@ in
       pkgs = final;
       inherit skiboot;
     });
+
+    qemu = prev.qemu;
   };
 }
